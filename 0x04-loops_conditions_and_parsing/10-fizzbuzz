@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+# displays numbers from 1 to 100.
+
+# Requirements:
+
+# Displays FizzBuzz when the number is a multiple of 3 and 5
+# Displays Fizz when the number is multiple of 3
+# Displays Buzz when the number is a multiple of 5
+# Otherwise, displays the number
+
+for cnt in {1..100}
+do
+	if (( cnt % 3 == 0 && cnt % 5 == 0 ))
+	then
+		echo "FizzBuzz"
+	elif (( cnt % 3 == 0 ))
+	then
+		echo "Fizz"
+	elif (( cnt % 5 == 0 ))
+	then
+		echo "Buzz"
+	else
+		echo "$cnt"
+	fi
+done

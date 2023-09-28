@@ -1,6 +1,6 @@
 # 0x04. Loops, conditions and parsing
-$${\color{red}Red}$$
-## About $${\color{red}Bash}$$ projects
+
+## About <span style="color:red;">Bash</span> projects
 Unless stated, all your projects will be auto-corrected with Ubuntu 20.04 LTS.
 
 ## Background Context

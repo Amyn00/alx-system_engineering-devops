@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+# This script is displaying "Best School" 10 times,
+# but for the 9th iteration, displays Best School and then Hi
+
+cnt=1
+
+while [ $cnt -le 20 ]
+do
+	case $cnt in
+		4)
+			echo $cnt
+			echo "bad luck from China"
+			;;
+		9)
+			echo $cnt
+			echo "bad luck from Japan"
+			;;
+		17)
+			echo $cnt
+			echo "bad luck from Italy"
+			;;
+		*)
+			echo $cnt
+			;;
+	esac
+	((cnt++))
+done

@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
-# This script is displaying "Best School" 10 times,
-# but for the 9th iteration, displays Best School and then Hi
+# This script is displaying numbers from 1 to 20
 
 cnt=1
 

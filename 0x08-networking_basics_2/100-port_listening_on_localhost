@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# The Bash script that listens on port 98 on localhost.
+
+port=98
+
+while true
+do
+	echo "Waiting for connections on port $port..."
+	nc -l -p $port
+done

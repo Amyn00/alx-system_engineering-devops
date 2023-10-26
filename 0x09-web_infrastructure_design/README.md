@@ -2,11 +2,11 @@
 **Concepts**
 For this project, we expect you to look at these concepts:
 * [DNS](https://github.com/Amyn00/alx-system_engineering-devops/blob/master/0x09-web_infrastructure_design/DNS.md)
-* [Monitoring](https://github.com/Amyn00/alx-system_engineering-devops/blob/master/0x09-web_infrastructure_design/monitoring.html)
-* [Web Server](https://github.com/Amyn00/alx-system_engineering-devops/blob/master/0x09-web_infrastructure_design/web_server.html)
-* [Network basics](https://github.com/Amyn00/alx-system_engineering-devops/blob/master/0x09-web_infrastructure_design/network_basics.html)
-* [Load balancer](https://github.com/Amyn00/alx-system_engineering-devops/blob/master/0x09-web_infrastructure_design/load_balancer.html)
-* [Server](https://github.com/Amyn00/alx-system_engineering-devops/blob/master/0x09-web_infrastructure_design/server.html)
+* [Monitoring](https://github.com/Amyn00/alx-system_engineering-devops/blob/master/0x09-web_infrastructure_design/MONITORING.md)
+* [Web Server](https://github.com/Amyn00/alx-system_engineering-devops/blob/master/0x09-web_infrastructure_design/WEB_SERVER.md)
+* [Network basics](https://github.com/Amyn00/alx-system_engineering-devops/blob/master/0x09-web_infrastructure_design/NETWORK_BASICS.md)
+* [Load balancer](https://github.com/Amyn00/alx-system_engineering-devops/blob/master/0x09-web_infrastructure_design/LOAD_BALANCER.md)
+* [Server](https://github.com/Amyn00/alx-system_engineering-devops/blob/master/0x09-web_infrastructure_design/SERVER.md)
 
 ## Resources
 **Read or watch:**

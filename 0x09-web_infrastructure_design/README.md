@@ -1,11 +1,7 @@
 # 0x09. Web infrastructure design
 **Concepts**
 For this project, we expect you to look at these concepts:
-<<<<<<< HEAD
-* [DNS](dns.html)
-=======
 * [DNS](https://github.com/Amyn00/alx-system_engineering-devops/blob/master/0x09-web_infrastructure_design/DNS.md)
->>>>>>> b9f603843854455b0f6dad15d29538b5560baa8d
 * [Monitoring](https://github.com/Amyn00/alx-system_engineering-devops/blob/master/0x09-web_infrastructure_design/monitoring.html)
 * [Web Server](https://github.com/Amyn00/alx-system_engineering-devops/blob/master/0x09-web_infrastructure_design/web_server.html)
 * [Network basics](https://github.com/Amyn00/alx-system_engineering-devops/blob/master/0x09-web_infrastructure_design/network_basics.html)

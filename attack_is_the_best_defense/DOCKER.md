@@ -3,6 +3,7 @@
 ## Readme
 
 * [What is Docker and why is it popular?](https://www.zdnet.com/article/what-is-docker-and-why-is-it-so-darn-popular/)
+
 Take note: The following instructions are run in a ubuntu-xenial virtual machine setup using Vagrant. To do the same, you can also install docker in any Vagrant virtual machine, or install docker on your host OS (Windows, Linux or Mac OS)
 
 Let’s first pull a Docker image and run a container:

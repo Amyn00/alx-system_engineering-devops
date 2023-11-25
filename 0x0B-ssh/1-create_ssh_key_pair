@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
 # Script to generate ann SSH key.
 
-ssh-keygen -t rsa -f school -b 4096 -N betty
+if [ ! -d ~/.ssh ]; then
+	mkdir ~/.ssh
+fi
+
+ssh-keygen -t rsa -f ~/.ssh/school -b 4096 -N betty

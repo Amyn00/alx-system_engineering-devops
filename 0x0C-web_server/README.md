@@ -10,7 +10,7 @@
 
 ## Background Context
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=AZg4uJkEa-4)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/AZg4uJkEa-4/0.jpg)](https://www.youtube.com/watch?v=AZg4uJkEa-4)
 
 In this project, some of the tasks will be graded on 2 aspects:
 

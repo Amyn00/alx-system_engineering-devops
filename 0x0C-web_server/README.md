@@ -3,10 +3,9 @@
 | Concepts                                                        |
 | --------------------------------------------------------------- |
 | For this project, we expect you to look at this concept:        |
-| * [What is a Child Process?]()                                  |
+| * [What is a Child Process?](https://github.com/Amyn00/alx-system_engineering-devops/blob/master/0x0C-web_server/CHILD_PROCESS.md).                                 |
 
-
-<img src="">
+<img src="https://github.com/Amyn00/alx-system_engineering-devops/blob/master/0x0C-web_server/images/server.png">
 
 ## Background Context
 
@@ -32,7 +31,7 @@ As you can tell, I am not using `emacs` to perform the task in my answer file. T
 
 A good Software Engineer is a [lazy Software Engineer](https://www.techwell.com/techwell-insights/2013/12/why-best-programmers-are-lazy-and-act-dumb).
 
-<img src="">
+<img src="https://github.com/Amyn00/alx-system_engineering-devops/blob/master/0x0C-web_server/images/imge.jpg">
 
 Tips: to test your answer Bash script, feel free to reproduce the checker environment:
 
@@ -47,7 +46,7 @@ Tips: to test your answer Bash script, feel free to reproduce the checker enviro
 * [How the web works](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works)
 * [Nginx](https://en.wikipedia.org/wiki/Nginx)
 * [How to Configure Nginx](https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-server-blocks-virtual-hosts-on-ubuntu-16-04)
-* [Child process concept page]()
+* [Child process concept page](https://github.com/Amyn00/alx-system_engineering-devops/blob/master/0x0C-web_server/CHILD_PROCESS.md)
 * [Root and sub domain](https://landingi.com/help/domains-vs-subdomains/)
 * [HTTP requests](https://www.tutorialspoint.com/http/http_methods.htm)
 * [HTTP redirection](https://moz.com/learn/seo/redirection)

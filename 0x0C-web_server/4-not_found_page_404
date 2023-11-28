@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+# doing some very beneficial redirection on nginx web server
+# Customising 404 page
+
+apt-get update
+apt-get install -y nginx
+echo "Hello World!" > /etc/nginx/html/index.html
+echo "server {
+    listen 80;
+    listen [::]:80 default_server;
+    root   /etc/nginx/html;
+    index  index.html;
+    location /redirect_me {
+        return 301 https://github.com/amyn00/;
+    }
+}" > /etc/nginx/sites-available/default
+
+# Creating a 404 error page
+
+echo "Ceci n'est pas une page" | sudo tee /var/www/html/404.html
+string_for_replacement="listen 80 default_server;\n\terror_page 404 \/404.html;\n\tlocation = \/404.html {\n\troot \/var\/www\/html;\n\t\tinternal;\n\t}"
+
+sudo sed -i "s/listing 80 default_server;/$string_for_replacement/" /etc/nginx/sites-enabled/default
+
+# restart ngnix
+
+service nginx restart

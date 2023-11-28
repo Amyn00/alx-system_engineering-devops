@@ -1,14 +1,16 @@
-# automating my work using puppet
+# Automating project requirements using Puppet
 
 package { 'nginx':
   ensure => installed,
 }
+
 file_line { 'install':
   ensure => 'present',
-  path   => '/etc/nginx/sites-enables/default',
-  after  => 'lisen 80 default_server;',
-  line   => 'rewirte ^/redirect_me https://github.com/amyn00 permanent;'
+  path   => '/etc/nginx/sites-enabled/default',
+  after  => 'listen 80 default_server;',
+  line   => 'rewrite ^/redirect_me https://www.github.com/amyn00 permanent;',
 }
+
 file { '/var/www/html/index.html':
   content => 'Hello World!',
 }

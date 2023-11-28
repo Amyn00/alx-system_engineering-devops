@@ -4,7 +4,7 @@
 
 Debugging usually takes a big chunk of a software engineer’s time. The art of debugging is tough and it takes years, even decades to master, and that is why seasoned software engineers are the best at it… experience. They have seen lots of broken code, buggy systems, weird edge cases and race conditions.
 
-<img src="">
+<img src="https://github.com/Amyn00/alx-system_engineering-devops/blob/master/0x0D-web_stack_debugging_0/images/knowledge.png">
 
 ## Non-exhaustive guide to debugging
 
@@ -100,4 +100,4 @@ If a piece of Software isn’t behaving as expected, it can obviously be because
 ### Debugging is fun
 
 Debugging can be frustrating, but it will definitely be part of your job, it requires experience and methodology to become good at it. The good news is that bugs are never going away, and the more experienced you become, trickier bugs will be assigned to you! Good luck :)
-<img src="">
+<img src="https://github.com/Amyn00/alx-system_engineering-devops/blob/master/0x0D-web_stack_debugging_0/images/bug.gif">

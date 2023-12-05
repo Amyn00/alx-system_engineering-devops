@@ -17,7 +17,7 @@ sudo mkdir -p /var/www/html /var/www/error
 sudo chmod -R 755 /var/www
 
 # Create index and 404 page
-echo 'Hello World! | sudo tee /var/www/html/index.html >/dev/null
+echo 'Hello World!' | sudo tee /var/www/html/index.html >/dev/null
 echo "Ceci n'est pas une page" | sudo tee /var/www/html/404.html >/dev/null
 
 # Configure Nginx with custom header
@@ -45,5 +45,5 @@ EOF
 
 echo "$server_config" | sudo tee /etc/nginx/sites-enabled/default >/dev/null
 
-# Reastart Nginx service
+# Reastart Nginx
 sudo service nginx restart

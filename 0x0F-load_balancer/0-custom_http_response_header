@@ -1,47 +1,41 @@
 #!/usr/bin/env bash
-# configure web-02 to be identical to web-01
-# The name of the custom HTTP header must be X-Served-By
-# The value of the custom HTTP header must be the hostname of the server Nginx is running on
+#Configure Nginx so that its HTTP response contains a custom header
+NGINX_CONF_FILE="/etc/nginx/sites-enabled/default"
 
-# Update package repositories
-sudo apt-get -y update
+# Configure Nginx only if the custom configurations are not already present
+    sudo apt-get update -y
+    sudo apt-get install nginx -y
+    ufw allow 'Nginx HTTP'
+    sudo service nginx start
+    echo -e "install nginx done"
+    echo -e "Hello World!" > index.html
+    sudo mv index.html /var/www/html/index.nginx-debian.html
+    echo -e "writing html file"
+    echo -e "Ceci n'est pas une page" > error.html
+    sudo mv error.html /var/www/html/404.html
+    echo -e "writing 404 file"
 
-# Install Nginx
-sudo apt-get -y install nginx
+if ! grep -o "location /redirect_me" "$NGINX_CONF_FILE"; then
+    # Add configurations only if they don't already exist
+    sudo sed -i "/server_name _/a location /redirect_me {rewrite ^ https://www.github.com/amyn00 permanent; }" "$NGINX_CONF_FILE"
+    echo -e "set the redirect"
 
-# Allow Nginx HTTP traffic
-sudo ufw allow 'Nginx HTTP'
+    if ! grep -o "location = /404.html" "$NGINX_CONF_FILE"; then
+        sudo sed -i "/server_name _/a \
+            error_page 404 /404.html;\n\
+            location = /404.html {\n\
+                internal;\n\
+            }" "$NGINX_CONF_FILE"
+        echo -e "set the error 404 config"
+    fi
 
-# Create necessary directories and set permissions
-sudo mkdir -p /var/www/html /var/www/error
-sudo chmod -R 755 /var/www
+    if ! grep -o "add_header X-Served-By" "$NGINX_CONF_FILE"; then
+        sudo sed -i "/server_name _/a add_header X-Served-By $HOSTNAME;" "$NGINX_CONF_FILE"
+        echo -e "set the custom header"
+    fi
 
-# Create index and 404 page
-echo 'Hello World!' | sudo tee /var/www/html/index.html >/dev/null
-echo "Ceci n'est pas une page" | sudo tee /var/www/html/404.html >/dev/null
-
-# Configure Nginx with custom header
-server_config=$(cat <<EOF
-server {
-	listen 80 default_server;
-	listen [::]:80 default_server;
-	root /var/www/html;
-	index index.html index.htm index.nginx-debian.html;
-	server_name _;
-	add_header X-Server_By \$hostname;
-	location / {
-		try_files \$uri \$uri/ =404;
-	}
-	rewrite ^/redirect_me https://github.com/amyn00 permanent;
-	error_page 404 /404.html;
-	location = /404.html {
-		internal;
-	}
-}
-EOF
-)
-
-echo "$server_config" | sudo tee /etc/nginx/sites-enabled/default >/dev/null
-
-# Reastart Nginx
-sudo service nginx restart
+    sudo service nginx restart
+    echo -e "Done"
+else
+    echo -e "Nginx is already configured. No changes made."
+fi

@@ -1,9 +1,9 @@
 # 0x0C. Web server
 
-| Concepts                                                        |
-| --------------------------------------------------------------- |
-| For this project, we expect you to look at this concept:        |
-| * [What is a Child Process?](https://github.com/Amyn00/alx-system_engineering-devops/blob/master/0x0C-web_server/CHILD_PROCESS.md).                                 |
+| Concepts                                                                                   |
+| ------------------------------------------------------------------------------------------ |
+| For this project, we expect you to look at this concept:                                   |
+| * [What is a Child Process?](https://github.com/Amyn00/alx-concepts/blob/main/CHILD_PROCESS.md).                                                                                         |
 
 <img src="https://github.com/Amyn00/alx-system_engineering-devops/blob/master/0x0C-web_server/images/server.png">
 

@@ -1,11 +1,11 @@
 # Attack is the best defense
 
 
-| Concepts							 		  |
-| ------------------------------------------------------------------------------- |
-| For this project, we expect you to look at these concepts:	 		  |
-| * [Network basics](https://github.com/Amyn00/alx-system_engineering-devops/blob/master/attack_is_the_best_defense/NETWORK_BASICS.md)						 		  |
-| * [Docker](https://github.com/Amyn00/alx-system_engineering-devops/blob/master/attack_is_the_best_defense/DOCKER.md)							 		  |
+| Concepts							 		             |
+| -------------------------------------------------------------------------------            |
+| For this project, we expect you to look at these concepts:	 		             |
+| * [Network basics](https://github.com/Amyn00/alx-concepts/blob/main/NETWORK_BASICS.md)     |
+| * [Docker](https://github.com/Amyn00/alx-concepts/blob/main/DOCKER.md)                     |
 
 
 ## Background Context

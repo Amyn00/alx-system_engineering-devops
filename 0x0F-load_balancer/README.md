@@ -1,10 +1,10 @@
 # 0x0F. Load balancer
 
-|Concepts                                                                       |
-| ----------------------------------------------------------------------------- |
-|For this project, we expect you to look at these concepts:                     |
-| * [Load balancer](https://github.com/Amyn00/alx-system_engineering-devops/blob/master/0x0F-load_balancer/LOAD_BALANCER.md)                                       |
-| * [Web stack debugging](https://github.com/Amyn00/alx-system_engineering-devops/blob/master/0x0D-web_stack_debugging_0/WEB_STACK_DEBUGGING.md)                   |
+|Concepts                                                                                    |
+| ------------------------------------------------------------------------------------------ |
+|For this project, we expect you to look at these concepts:                                  |
+| * [Load balancer](https://github.com/Amyn00/alx-concepts/blob/main/LOAD_BALANCER.md)       |
+| * [Web stack debugging](https://github.com/Amyn00/alx-concepts/blob/main/WEB_STACK_DEBUGGING.md)                                                                                         |
 
 <img src="https://github.com/Amyn00/alx-system_engineering-devops/blob/master/0x0F-load_balancer/images/img0.png">
 

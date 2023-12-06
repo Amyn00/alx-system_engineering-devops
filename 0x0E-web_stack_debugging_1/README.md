@@ -2,9 +2,9 @@
 
 |Concepts
 | ------------------------------------------------------------------------------- |
-|For this project, we expect you to look at these concepts
-* [Network basics](https://github.com/Amyn00/alx-concepts/blob/main/NETWORK_BASICS.md)
-* [Web stack debugging](https://github.com/Amyn00/alx-concepts/blob/main/WEB_STACK_DEBUGGING.md)                                                                    |
+|For this project, we expect you to look at these concepts                        |
+| * [Network basics](https://github.com/Amyn00/alx-concepts/blob/main/NETWORK_BASICS.md)                                                                             |
+| * [Web stack debugging](https://github.com/Amyn00/alx-concepts/blob/main/WEB_STACK_DEBUGGING.md)                                                                   |
 
 ## Requirements
 

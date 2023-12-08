@@ -6,7 +6,7 @@
 |[DNS](https://github.com/Amyn00/alx-concepts/blob/main/DNS.md)                  |
 |[Web stack debugging](https://github.com/Amyn00/alx-concepts/blob/main/WEB_STACK_DEBUGGING.md)                                                                     |
 
-<img src="">
+<img src="https://github.com/Amyn00/alx-system_engineering-devops/blob/master/0x10-https_ssl/images/https.png">
 
 ## Background Context
 

@@ -5,13 +5,13 @@
 | For this project, we expect you to look at this concept:                        |
 | [Web stack debugging](https://github.com/Amyn00/alx-concepts/blob/main/WEB_STACK_DEBUGGING.md)                                                                     |
 
-<img src="">
+<img src="https://github.com/Amyn00/alx-system_engineering-devops/blob/master/0x13-firewall/images/firewall.png">
 
 ## Background Context
 
 ### Your servers without a firewall…
 
-<img src="">
+<img src="https://github.com/Amyn00/alx-system_engineering-devops/blob/master/0x13-firewall/images/holbertonschool-firewall.gif">
 
 ### Resources
 

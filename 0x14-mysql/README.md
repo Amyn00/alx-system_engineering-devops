@@ -7,7 +7,7 @@
 |[Web stack debugging](https://github.com/Amyn00/alx-concepts/blob/main/WEB_STACK_DEBUGGING.md)                                                                      |
 |[How to Install mysql 5.7]()
 
-<img src="">
+<img src="https://github.com/Amyn00/alx-system_engineering-devops/blob/master/0x14-mysql/images/Mysql.png">
 
 ## Resources
 

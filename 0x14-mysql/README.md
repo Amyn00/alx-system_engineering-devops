@@ -3,9 +3,9 @@
 |**Concepts**                                                                     |
 | ------------------------------------------------------------------------------- |
 |For this project, we expect you to look at these concepts:                       |
-|[Database administration]()
+|[Database administration](https://github.com/Amyn00/alx-concepts/blob/main/DATABASE_ADMIN.md)                                                                       |
 |[Web stack debugging](https://github.com/Amyn00/alx-concepts/blob/main/WEB_STACK_DEBUGGING.md)                                                                      |
-|[How to Install mysql 5.7]()
+|[How to Install mysql 5.7](https://github.com/Amyn00/alx-concepts/blob/main/MYSQL_INSTALL.md)
 
 <img src="https://github.com/Amyn00/alx-system_engineering-devops/blob/master/0x14-mysql/images/Mysql.png">
 

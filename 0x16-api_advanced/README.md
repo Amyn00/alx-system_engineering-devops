@@ -1,6 +1,6 @@
 # 0x16. API advanced
 
-<img src="">
+<img src="https://github.com/Amyn00/alx-system_engineering-devops/blob/master/0x16-api_advanced/images/api2.png">
 
 ## Background Context
 

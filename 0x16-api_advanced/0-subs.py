@@ -1,15 +1,23 @@
 #!/usr/bin/python3
-"""define module total subs"""
+"""
+Query Reddit API and return the total number of subscribers
+for a given subreddit
+"""
 import requests
 
 
 def number_of_subscribers(subreddit):
-    """number of subscribers"""
-    if subreddit is None or type(subreddit) is not str:
-        return (0)
-    url = f'https://www.reddit.com/r/{subreddit}/about.json'
-    headers = {'User-Agent': 'AmynApp/1.0 by Amyn092'}
-    response = requests.get(url, headers=headers)
-    response_json = response.json()
-    subs = response_json.get("data", {}).get("subscribers", 0)
-    return subs
+    """
+        get number of subscribers for a given subreddit
+        return 0 if invalid subreddit given
+    """
+    url = "https://www.reddit.com/r/{}/about.json".format(subreddit)
+
+    headers = requests.utils.default_headers()
+    headers.update({'User-Agent': 'My User Agent 1.0'})
+
+    r = requests.get(url, headers=headers).json()
+    subscribers = r.get('data', {}).get('subscribers')
+    if not subscribers:
+        return 0
+    return subscribers

@@ -43,20 +43,31 @@ server {
         # Add index.php to the list if you are using PHP
         index index.html index.htm index.nginx-debian.html;
 
-        server_name 52.91.182.187;
-        add_header X-Served_By 387785-web-01;
-        # location / {
-        location = /airbnb-onepage/ {
+        server_name _;
+        add_header X-Served_By "387785-web-01";
+
+        location /hbnb_static/ {
+                alias /data/web_static/current/;
+        }
+
+        location /redirect_me {
+                return 301 https://github.com/amyn00;
+        }
+
+        location /airbnb-onepage/ {
                 proxy_pass http://127.0.0.1:5000/airbnb-onepage/;
         }
+
+        location /airbnb-dynamic/number_odd_or_even/ {
+                proxy_pass http://localhost:5001/number_odd_or_even/;
+        }
+
+        location / {
                 # First attempt to serve request as file, then
                 # as directory, then fall back to displaying a 404.
-        #       try_files $uri $uri/ =404;
-        # }
-
-        location ~ /airbnb-dynamic/number_odd_or_even/{\d+}$ {
-                proxy_pass http://127.0.0.1:5001/number_odd_or_even/$1;
+                try_files $uri $uri/ =404;
         }
+
         error_page 404 /404.html;
         location /404 {
                 root /var/www/html;
